@@ -3,7 +3,7 @@
 count=1;
 for img in *.jpg *.JPG *.png *.PNG *.jpeg
 do
-new=image-$count.${img##*.}
+new=imageName_$count.${img##*.}
 
 mv "$img" "$new" 2> /dev/null
 
