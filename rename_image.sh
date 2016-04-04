@@ -1,7 +1,7 @@
 #!bin/bash
 
 count=1;
-for img in *.jpg *.JPG *.png *.PNG
+for img in *.jpg *.JPG *.png *.PNG *.jpeg
 do
 new=image-$count.${img##*.}
 
